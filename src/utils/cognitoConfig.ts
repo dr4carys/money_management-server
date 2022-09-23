@@ -11,13 +11,13 @@ import {
 // let cognitoAttributeList = [];
 
 const userPool = new CognitoUserPool({
-  UserPoolId: 'ap-southeast-1_xcpkQFFFg',
-  ClientId: '7uh94025f894cs3cm7i5qcrbm8',
+  UserPoolId: '',
+  ClientId: '',
 });
 const CognitoInstance = new CognitoIdentityServiceProvider({
-  accessKeyId: 'AKIAWZYISU5UNCSSGMPO',
-  secretAccessKey: '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',
-  region: 'ap-southeast-1',
+  accessKeyId: '',
+  secretAccessKey: '',
+  region: '',
 });
 
 export async function awsResponse<D, E>(arg: any): Promise<{ response?: D; error?: E }> {
